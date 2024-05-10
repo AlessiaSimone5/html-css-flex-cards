@@ -27,20 +27,37 @@ p {
 }
 
 /*icona*/
-ul {
-    display: flex;
-    margin-left: 265px;
-    margin-right: 265px;
 
+.flex {
+    display: flex;
+    gap: 1.875rem;
+}
+
+.block {
+    height: 100px;
+    width: 360px;
+    background-color: aquamarine;
+    display: flex;
+}
+
+section {
+    margin: 50px 265px 0;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+ul .point {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 10px;
 
 
 }
 
-.icone {
-    width: 350px;
-    height: 100px;
-    background-color: pink;
-    margin-right: 30px;
-    margin-bottom: 50px;
-
+ul .point li {
+    margin-bottom: 10px;
 }
