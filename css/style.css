@@ -36,7 +36,7 @@ p {
 .block {
     height: 100px;
     width: 360px;
-    background-color: aquamarine;
+    background-color: black;
     display: flex;
 }
 
@@ -54,10 +54,27 @@ ul .point {
     flex-direction: column;
     margin-top: 10px;
     margin-left: 10px;
+    font-family: fredoka;
 
 
 }
 
 ul .point li {
     margin-bottom: 10px;
+}
+
+.name {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+}
+
+.job {
+    color: white;
+    font-size: 15px;
+}
+
+.email {
+    color: #6ecbf2;
+    font-size: .9375rem;
 }
